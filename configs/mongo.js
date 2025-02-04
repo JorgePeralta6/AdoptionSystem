@@ -1,11 +1,11 @@
-'use strict'
+'use strict';
 
 import mongoose from "mongoose";
 
-export const dbConnection = async() => {
-    try {
+export const dbConnection = async () => {
+    try{
         mongoose.connection.on('error', ()=>{
-            console.log('MongoDB | could not be conneced to MongoDB');
+            console.log('MongoDB | Could not be connected to MongoDB');
             mongoose.disconnect();
         });
         mongoose.connection.on('connecting', ()=>{
@@ -23,12 +23,11 @@ export const dbConnection = async() => {
         mongoose.connection.on('disconnected', ()=>{
             console.log('MongoDB | disconnected');
         });
-
-        await mongoose.connect(process.env.URI_MONGO, {
+        mongoose.connect(process.env.URI_MONGO, {
             serverSelectionTimeoutMS: 5000,
             maxPoolSize: 50,
         });
-    } catch (error) {
+    }catch(error){
         console.log('Database connection failed', error);
     }
 }
