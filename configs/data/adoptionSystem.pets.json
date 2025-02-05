@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "67a3c3b5062ebdc0283b49c5"
+  },
+  "name": "Juan",
+  "description": "perro buldog",
+  "age": 26,
+  "type": "MANDRIL",
+  "keeper": {
+    "$oid": "67a3bac089eece4701a351c4"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-05T20:01:57.815Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T20:01:57.815Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3e2c12929117690578508"
+  },
+  "name": "Oso",
+  "description": "gato grullon",
+  "age": 4,
+  "type": "MASCOTA",
+  "keeper": {
+    "$oid": "67a3bac089eece4701a351c4"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-05T22:14:25.671Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T22:15:10.771Z"
+  }
+}]
