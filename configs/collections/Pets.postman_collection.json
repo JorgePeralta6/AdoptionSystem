@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "944a5a18-71f4-4e46-a481-3bf9c55c6259",
+		"name": "Pets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37413959"
+	},
+	"item": [
+		{
+			"name": "AgregarPets",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhODA1ZjYzNTE5Zjg2MWM5ZGNhZTUiLCJpYXQiOjE3MzkyMjkyMDAsImV4cCI6MTczOTIzMjgwMH0.YNuQ5LzzhOGOOCPtwAWuWNA5UPqFEKkWu2gQNUThK90",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"jevin\",\r\n    \"description\":\"perro fusionado\",\r\n    \"age\": 12,\r\n    \"type\": \"perro\",\r\n    \"email\": \"jarevalo-2023999@kinal.edu.gt\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/adoptionSystem/v1/pets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"adoptionSystem",
+						"v1",
+						"pets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarPets",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
