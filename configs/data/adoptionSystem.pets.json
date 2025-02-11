@@ -35,4 +35,42 @@
   "updatedAt": {
     "$date": "2025-02-05T22:15:10.771Z"
   }
+},
+{
+  "_id": {
+    "$oid": "67abc43a7192cbe384abfe93"
+  },
+  "name": "Dado",
+  "description": "Es largo",
+  "age": 10,
+  "type": "PERRO SALCHICHA",
+  "keeper": {
+    "$oid": "67a3e3ecfaf087b5b77375b2"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T21:42:18.046Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T21:45:13.943Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67abc77aea9416d17d43635a"
+  },
+  "name": "Dado",
+  "description": "Es largo",
+  "age": 10,
+  "type": "PERRO BULDOG",
+  "keeper": {
+    "$oid": "67abc6ecea9416d17d436347"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T21:56:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T21:57:02.882Z"
+  }
 }]

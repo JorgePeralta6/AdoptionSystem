@@ -49,6 +49,44 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "UpdatePets",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FiYzNjODcxOTJjYmUzODRhYmZlOGUiLCJpYXQiOjE3MzkzMTAwNjIsImV4cCI6MTczOTMxMzY2Mn0.wQR06gr74plj_bODeLSoCtsAlFjTR0epWSMHiDSRBoo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Dado\",\r\n    \"description\":\"Es largo\",\r\n    \"age\": 10,\r\n    \"type\": \"perro buldog\",\r\n    \"email\": \"UADHUEHD-2023500@kinal.edu.gt\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/adoptionSystem/v1/pets/activate/67abc43a7192cbe384abfe93",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"adoptionSystem",
+						"v1",
+						"pets",
+						"activate",
+						"67abc43a7192cbe384abfe93"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

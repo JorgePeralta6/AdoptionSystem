@@ -95,6 +95,38 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "UpdatePassword",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"password\": \"33332222\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/adoptionSystem/v1/users/newpassword/67abc6ecea9416d17d436347",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"adoptionSystem",
+						"v1",
+						"users",
+						"newpassword",
+						"67abc6ecea9416d17d436347"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
