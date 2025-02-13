@@ -73,4 +73,61 @@
   "updatedAt": {
     "$date": "2025-02-11T21:57:02.882Z"
   }
+},
+{
+  "_id": {
+    "$oid": "67ad6a644e52d7cc69f014de"
+  },
+  "name": "pedro",
+  "description": "perro golden",
+  "age": 9,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67ad66a24e52d7cc69f014d2"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-13T03:43:32.015Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-13T03:43:32.015Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ad7040eddf2d69338283cd"
+  },
+  "name": "usman",
+  "description": "perro chiguagua",
+  "age": 10,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67ad6fe5eddf2d69338283c8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-13T04:08:32.322Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-13T04:08:32.322Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ad7143eddf2d69338283ec"
+  },
+  "name": "haaland",
+  "description": "perro chiguagua",
+  "age": 90,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67ad6fe5eddf2d69338283c8"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-13T04:12:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-13T04:13:57.393Z"
+  }
 }]

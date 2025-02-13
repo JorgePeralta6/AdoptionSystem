@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"username\": \"jeremaya\",\r\n    \"password\":\"12345678\"\r\n}",
+					"raw": "{\r\n    \"username\": \"henry\",\r\n    \"password\":\"12345678\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -44,7 +44,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Humberto\",\r\n    \"surname\": \"Castrol\",\r\n    \"username\": \"mamert\",\r\n    \"email\": \"hcastrol-2020495@kinal.edu.gt\",\r\n    \"password\": \"abcdefgh\",\r\n    \"profilePicture\": \"\",\r\n    \"phone\": \"78946632\",\r\n    \"role\": \"USER_ROLE\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Darwin\",\r\n    \"surname\": \"Mijangos\",\r\n    \"username\": \"dmijangos\",\r\n    \"email\": \"dmijanfos@gmail.com\",\r\n    \"password\": \"12345678\",\r\n    \"profilePicture\": \"\",\r\n    \"phone\": \"92921111\",\r\n    \"role\": \"ADMIN_ROLE\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

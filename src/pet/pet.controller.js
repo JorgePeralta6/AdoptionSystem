@@ -29,7 +29,7 @@ export const savePet = async (req,res) =>{
     }catch(error){
         res.status(500).json({
             success: false,
-            message: 'Erro al guardar mascota',
+            message: 'Error al guardar mascota',
             error
         })
     }

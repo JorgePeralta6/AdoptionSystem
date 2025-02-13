@@ -1,5 +1,6 @@
 import Role from '../role/role.model.js';
 import User from '../users/user.model.js';
+import Appointment from '../appointment/appointment.model.js'
 
 export const esRoleValido = async (role = '') => {
 
@@ -24,5 +25,13 @@ export const existeUsuarioById = async (id = '') => {
     
     if (!existeUsuario) {
         throw new Error(`El ID ${id} no existe`);
+    }
+}
+
+export const existeAppointmentById = async (id = '') => {
+    const existeAppointment = await Appointment.findById(id);
+    
+    if(!existeAppointment){
+        throw new Error(`El appointment con el id ${id} no existe`)
     }
 }
